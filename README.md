@@ -26,8 +26,7 @@ public class ball : MonoBehaviour
  >So what is the code for the gizmos?
 
  void OnDrawGizmos()
- {
-     // Display the explosion radius when selected   
+ {  
      Gizmos.color = new Color(1, 1, 0, 0.75F);
      foreach(var item in noktalar)
      Gizmos.DrawSphere(item, radius);        
